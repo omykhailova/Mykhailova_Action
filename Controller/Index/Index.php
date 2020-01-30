@@ -10,7 +10,7 @@ class Index extends Action
     public function execute()
     {
         $pageResult = $this->resultFactory->create(ResultFactory::TYPE_PAGE);
-        $pageResult->getConfig()->getTitle()->set(__('Акціі'));
+        $pageResult->getConfig()->getTitle()->set(__('Акції'));
 
         return $pageResult;
     }

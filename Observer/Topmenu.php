@@ -19,9 +19,9 @@ class Topmenu implements ObserverInterface
         $menu = $observer->getMenu();
         $tree = $menu->getTree();
         $data = [
-            'name'      => __('Інше'),
+            'name'      => __('Акції через обсервер'),
             'id'        => 'some-unique-id-here',
-            'url'       => 'url goes here'
+            'url'       => 'mykhailova_action/'
         ];
         $node = new Node($data, 'id', $tree, $menu);
         $menu->addChild($node);
