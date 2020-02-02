@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Mykhailova_Action::actions" title="Mykhailova" module="Mykhailova_Action" sortOrder="51" resource="Mykhailova_Action::actions"/>
+        <add id="Mykhailova_Action::action" title="Actions" module="Mykhailova_Action" sortOrder="10" action="mykhailova_action/action/index" resource="Mykhailova_Action::action" parent="Mykhailova_Action::actions"/>
+    </menu>
+</config>
