@@ -10,7 +10,7 @@
                 <item name="name" xsi:type="string">Add</item>
                 <item name="label" xsi:type="string" translate="true">Add</item>
                 <item name="class" xsi:type="string">primary</item>
-                <item name="url" xsi:type="string">*/*/edit</item>
+                <item name="url" xsi:type="string">*/*/new</item>
             </item>
         </item>
     </argument>
